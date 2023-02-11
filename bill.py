@@ -1,6 +1,7 @@
 from flask import Flask,request,jsonify,render_template
 
-bill = Flask(__name__)
+application = Flask(__name__)
+bill = application
 
 # Route
 #  "/" - Home page.
